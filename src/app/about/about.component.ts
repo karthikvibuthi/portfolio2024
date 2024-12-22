@@ -12,17 +12,17 @@ import { RouterLink } from '@angular/router';
 export class AboutComponent {
   images = [
     {
-      src: '../../../assets/images/UMBCretrievers_LOGO.jpg',
+      src: './assets/images/UMBCretrievers_LOGO.jpg',
       alt: 'UMBC Logo',
       desc: 'Masters of Science in Data Science',
     },
     {
-      src: '../../../assets/images/sinst_logo.png',
+      src: './assets/images/sinst_logo.png',
       alt: 'SNIST Logo',
       desc: 'Bachelors of Technology in Electroninc and Communication Engineering',
     },
     {
-      src: '../../../assets/images/EzPelican.jpeg',
+      src: './assets/images/EzPelican.jpeg',
       alt: 'EzPelican',
       desc: 'Model Plane Builder',
     },
