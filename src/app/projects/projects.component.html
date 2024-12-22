@@ -1,0 +1,32 @@
+<div class="container my-5">
+    <h1 class="text-uppercase text-center mb-4">Projects</h1>
+    <div class="row">
+      <!-- Project Card -->
+      <div class="col-md-4 mb-4" *ngFor="let project of projects">
+        <div class="card h-100 shadow-sm">
+          <div class="card-body d-flex flex-column">
+            <!-- Project Title -->
+            <h2 class="card-title text-uppercase">{{ project.title }}</h2>
+            <!-- Project Description -->
+            <p class="card-text">{{ project.description }}</p>
+            <!-- Project Link -->
+            <button class="btn btn-primary mt-auto" (click) = "viewProject(project.link)" target="_blank">
+              View Project
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="d-flex flex-grow-1 iframe-container bg-light">
+    <data value=""></data>
+    <div class="iframe-container">
+      <iframe [src]="safeUrl" frameborder="0" allowfullscreen>
+      </iframe>
+    </div>
+  </div>
+  
+
+
+  

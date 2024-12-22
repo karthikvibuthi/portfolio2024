@@ -1,0 +1,40 @@
+<div >
+    <div class= "card-body rounded-3 my-5">
+        <h2 class="text-uppercase text-center mb-4">Connect and Network</h2>
+        <form (ngSubmit)="onSubmit()" [formGroup]="connectForm" class="w-50 mx-auto">
+          <!-- Name Field -->
+          <div class="mb-3">
+            <label for="name" class="form-label">Name</label>
+            <input 
+              type="text" 
+              id="name" 
+              class="form-control" 
+              formControlName="name" 
+              placeholder="Enter your name" 
+              required />
+            <div *ngIf="connectForm.controls['name'].invalid && connectForm.controls['name'].touched" class="text-danger">
+              Name is required.
+            </div>
+          </div>
+          <!-- Email Field -->
+          <div class="mb-3">
+            <label for="email" class="form-label">Email</label>
+            <input 
+              type="email" 
+              id="email" 
+              class="form-control" 
+              formControlName="email" 
+              placeholder="Enter your email" 
+              required />
+            <div *ngIf="connectForm.controls['email'].invalid && connectForm.controls['email'].touched" class="text-danger">
+              A valid email is required.
+            </div>
+          </div>
+          <!-- Submit Button -->
+          <button type="submit" class="btn btn-primary w-100" [disabled]="connectForm.invalid">
+            Submit
+          </button>
+        </form>
+      </div>
+</div>
+  

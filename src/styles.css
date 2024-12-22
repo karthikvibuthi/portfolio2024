@@ -1,0 +1,74 @@
+/* Define CSS Variables for Colors */
+:root {
+  --background-main: #ffffff; /* White */
+  --background-contact: #e7e7e7; /* Contact Section Background */
+  --background-items: #f9f9f9; /* Placeholder for Items Background */
+  --important-text: #f0523d; /* Important Text Color */
+  --buttons: #f0523d; /* Button Color */
+}
+
+/* Apply Colors */
+
+/* Main Background */
+body {
+  background-color: var(--background-main);
+  color: var(
+    --important-text
+  ); /* Optional: Sets text color to important text */
+}
+
+/* Contact Section Background */
+.contact-section {
+  background-color: var(--background-contact);
+}
+
+/* Items Background */
+.items {
+  background-color: var(--background-items);
+}
+
+/* Important Text */
+.important-text {
+  color: var(--important-text);
+}
+
+/* Buttons */
+.btn-primary {
+  background-color: var(--buttons) !important;
+  color: #ffffff; /* White text for contrast */
+  border: none;
+  padding: 0.5em 1em;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover,
+.btn:hover {
+  background-color: #d94631; /* Slightly darker shade for hover effect */
+}
+
+/* Heading Styles */
+h1 {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+/* Subheading Styles */
+h2 {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+/* Paragraph Styles */
+p {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-weight: 200;
+
+  text-transform: uppercase;
+}
+
+button {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif !important;
+}

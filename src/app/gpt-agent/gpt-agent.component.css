@@ -1,0 +1,12 @@
+.iframe-container {
+    width: 100%; /* Adjust the width as needed */
+    height: 800px; /* Set the height based on your layout */
+    border: 1px solid #ccc; /* Optional border styling */
+    overflow: hidden; /* Prevent overflow issues */
+  }
+  
+  iframe {
+    width: 100%;
+    height: 100%;
+  }
+  

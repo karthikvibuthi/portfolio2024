@@ -1,0 +1,11 @@
+
+
+.nav div p {
+  text-decoration: none;
+  color: whitesmoke;
+  cursor: pointer;
+}
+
+.nav div p:hover {
+  color:var(--important-text);
+}

@@ -1,0 +1,16 @@
+/* footer.component.css */
+footer {
+    position:absolute;
+    width: 100%;
+    bottom: 0;
+  }
+  
+  a {
+    text-decoration: none;
+    margin: 0 10px;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  

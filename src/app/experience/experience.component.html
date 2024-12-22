@@ -1,0 +1,31 @@
+<section>
+  <h1>Professional Summary</h1>
+
+  <table>
+    <tbody>
+        <tr *ngFor="let item of summary" class="align-top border-bottom">
+            <td class="pe-3">
+                <div class="mb-4">
+                    <h2>{{ item.role }}</h2>
+                </div>
+            </td>
+            <td class="pe-3">
+                <div class="d-flex flex-column align-items-start mb-4">
+                    <p>Domain: {{ item.domain }}</p>
+                    <p>Tech Stack: {{ item.techStack }}</p>
+                    <p>Projects: {{ item.projects }}</p>
+                </div>
+            </td>
+            <td>
+                <div class="mb-4">
+                    <img class="image" *ngIf="item.image" [src]="item.image" />
+                </div>
+            </td>
+        </tr>
+    </tbody>
+</table>
+  <button (click)="downloadResume()" class="btn btn-primary mt-4">
+    Download Resume
+  </button>
+</section>
+
