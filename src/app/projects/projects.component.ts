@@ -23,12 +23,12 @@ export class ProjectsComponent {
       title: 'Career Map and Networking',
       description:
         'Website for ATS scoring, job and networking events automation.',
-      link: 'http://3.229.200.133:5001/', // Replace with the actual project link
+      link: 'https://karthikvibuthiportfolio.com/jobhelper', // Replace with the actual project link
     },
     {
       title: 'GPT Agent for Portfolio',
       description: 'GPT Agent that gives Information about karthiks portfolio',
-      link: 'http://3.229.200.133:5002/', // Replace with the actual project link
+      link: 'https://karthikvibuthiportfolio.com/portfoliogptagent', // Replace with the actual project link
     },
     {
       title: 'Portfolio Website',
