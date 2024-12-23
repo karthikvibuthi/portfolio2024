@@ -10,7 +10,7 @@ import { DomSanitizer, SafeResourceUrl } from '@angular/platform-browser';
   styleUrl: './projects.component.css',
 })
 export class ProjectsComponent {
-  currentUrl = "http://3.229.200.133:5002/";
+  currentUrl = "https://karthikvibuthiportfolio.com/portfoliogptagent";
 
   safeUrl: SafeResourceUrl;
 
