@@ -1,5 +1,6 @@
-<div class="d-flex vh-100 app-container">
-  <section class="sidebar h-100">
+<div class="d-flex flex-column vh-100 app-container">
+  <div class="d-flex">
+    <section class="sidebar h-100">
       <app-sidebar />
   </section>
   <section class="d-flex flex-column h-100 w-100 content px-4">
@@ -8,9 +9,10 @@
           <router-outlet />
       </div>
   </section>
+  </div>
+  <section>
+    <app-footer />
+  </section>
   
 </div>
-<section>
-  <app-footer />
-</section>
 
