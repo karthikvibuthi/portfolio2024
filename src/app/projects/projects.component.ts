@@ -31,9 +31,9 @@ export class ProjectsComponent {
       link: 'https://karthikvibuthiportfolio.com/portfoliogptagent', // Replace with the actual project link
     },
     {
-      title: 'Portfolio Website',
-      description: 'Angular Node Js based portfolio website with GPT Agent',
-      link: 'https://karthikvibuthi.github.io/Karthik_Portfolio_Website/resume.html', // Replace with the actual project link
+      title: 'Future Makers AI Assistant',
+      description: 'Trained GPT model that conducts interview with a teachers to help them create a lesson plan',
+      link: 'https://karthikvibuthiportfolio.com/futuremakers/', // Replace with the actual project link
     },
   ];
 
